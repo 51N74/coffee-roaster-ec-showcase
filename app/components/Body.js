@@ -1,10 +1,8 @@
-
-
 export default function Body() {
   return (
     <>
       <div className="container mx-auto px-4 py-16 ">
-        <h1 className="text-center text-6xl font-bold mb-4">
+        <h1 className="text-center text-6xl font-bold mb-4" >
           สินธารา โรงคั่วกาแฟ เมล็ดกาแฟ ครบเครื่องเรื่องกาแฟ
         </h1>
         <p className="text-center text-2xl">

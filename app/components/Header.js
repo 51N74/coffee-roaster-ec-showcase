@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Header() {
     return (
         <div className="navbar bg-base-100">
@@ -31,15 +33,17 @@ export default function Header() {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">SINTARA</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>HOME</a></li>
-      <li><a>SHOP</a></li>
-      <li><a>OUR BEANS </a></li>
-      <li><a>ABOUT US</a></li>
-      <li><a>CONTACT US</a></li>
+      
+    <li><Link href="/">HOME</Link> </li>
+      <li><Link href="/#">SHOP</Link> </li>
+      <li><Link href="/beans">OUR BEANS</Link> </li>
+      <li><Link href="/about">ABOUT US</Link> </li>
+      <li><Link href="/contact">Contact US</Link> </li>
+      
       
     </ul>
   </div>
@@ -49,3 +53,4 @@ export default function Header() {
 </div>
     );
 }
+
