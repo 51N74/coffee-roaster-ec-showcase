@@ -15,12 +15,12 @@ export default function Body() {
         </p>
       </div>
 
-      <section className="container mx-auto px-4 py-4 ">
+      {/* <section className="container mx-auto px-4 py-4 ">
         <h2 className="text-center text-4xl font-bold mb-4">เมล็ดกาแฟ</h2>
         <div className="carousel rounded-box">
           <div className="carousel-item">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+              src="/images/products/Italian_Espresso_500_copy_5_2.jpg"
               alt="Burger"
             />
           </div>
@@ -61,7 +61,7 @@ export default function Body() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="container mx-auto px-4 py-4 ">
         <h2 className="text-center text-4xl font-bold mb-4">ครบเครื่องเรื่องกาแฟไปกับ สินธาราโรสเตอร์ ผู้จำหน่ายเมล็ดกาแฟและอุปกรณ์ครบครัน</h2>

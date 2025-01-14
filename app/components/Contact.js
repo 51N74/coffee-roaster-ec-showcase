@@ -31,8 +31,8 @@ export default function Contact() {
             <div className="card bg-base-100 image-full shadow-xl">
               <figure>
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
+                  src="/images/other/coffee_beans_hands-3698937492.jpg"
+                  alt="company"
                 />
               </figure>
               <div className="card-body">
@@ -46,8 +46,8 @@ export default function Contact() {
             <div className="card bg-base-100 image-full shadow-xl">
               <figure>
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
+                  src="/images/other/Coffogenic-60ml.jpg"
+                  alt="contactus"
                 />
               </figure>
               <div className="card-body">

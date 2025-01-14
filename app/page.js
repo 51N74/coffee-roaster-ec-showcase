@@ -11,25 +11,25 @@ export default function Home() {
       id: 1,
       name: 'Product 1',
       price: '$20.00',
-      image: '/images/product1.jpg',
+      image: '/images/products/product_1.jpg',
     },
     {
       id: 2,
       name: 'Product 2',
       price: '$35.00',
-      image: '/images/product2.jpg',
+      image: '/images/products/product_2.jpg',
     },
     {
       id: 3,
       name: 'Product 3',
       price: '$25.00',
-      image: '/images/product3.jpg',
+      image: '/images/products/product_3.jpg',
     },
     {
       id: 4,
       name: 'Product 4',
       price: '$25.00',
-      image: '/images/product4.jpg',
+      image: '/images/products/product_4.jpg',
     },
     // Add more products here...
   ];
@@ -67,28 +67,28 @@ export default function Home() {
       title: 'Blog Post 1',
       date: '2023-06-01',
       summary: 'This is the summary of Blog Post 1.',
-      image: '/images/blog1.jpg',
+      image: '/images/blog/blog_1.jpg',
     },
     {
       id: 2,
       title: 'Blog Post 2',
       date: '2023-06-02',
       summary: 'This is the summary of Blog Post 2.',
-      image: '/images/blog2.jpg',
+      image: '/images/blog/blog_2.jpg',
     },
     {
       id: 3,
       title: 'Blog Post 3',
       date: '2023-06-03',
       summary: 'This is the summary of Blog Post 3.',
-      image: '/images/blog3.jpg',
+      image: '/images/blog/blog_3.jpg',
     },
     {
       id: 4,
       title: 'Blog Post 4',
       date: '2023-06-04',
       summary: 'This is the summary of Blog Post 4.',
-      image: '/images/blog4.jpg',
+      image: '/images/blog/blog_4.jpg',
     },
     // Add more blog posts here...
   ];
@@ -98,7 +98,7 @@ export default function Home() {
       <Hero />
       <Body />
       <Gallery products={products} />
-      <ImageCarousel bestSellers={bestSellers} />
+      {/* <ImageCarousel bestSellers={bestSellers} /> */}
       <Blog posts={posts} />
       <Contact />
 
