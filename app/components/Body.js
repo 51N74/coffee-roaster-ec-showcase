@@ -2,16 +2,18 @@ export default function Body() {
   return (
     <>
       <div className="container mx-auto px-4 py-16 ">
-        <h1 className="text-center text-6xl font-bold mb-4" >
-          สินธารา โรงคั่วกาแฟ เมล็ดกาแฟ ครบเครื่องเรื่องกาแฟ
+        <h1 className="text-center text-3xl font-bold mb-4">
+          Sintara Coffee Roasters: Mastering the Art of Coffee Beans
         </h1>
-        <p className="text-center text-2xl">
-          ความใส่ใจในทุกขั้นตอนคือสิ่งที่ สินธารา ยึดมั่นและทำออกมาให้ดีที่สุด
-          เพื่อให้ลูกค้าได้สัมผัสกับรสชาติของกาแฟที่ตรงกับความต้องการ
-          เราไม่ได้เริ่มต้นจากร้านกาแฟ แต่ที่มาของเราคือ “โรงคั่วกาแฟ” พร้อม
-          passion ในการสร้างสรรค์เพื่อให้ได้เมล็ดกาแฟที่ตอบโจทย์กับทุก ๆ คน
-          จัดเต็มประเภทและรสชาติสุดหลากหลาย ชื่นชอบกาแฟดริปแบบไหน
-          กาแฟคั่วสไตล์ใด เราจัดให้ในแบบที่ทุกคนต้องหลงรัก
+        <p className="text-center text-base">
+          Attention to detail in every step is what Sintara upholds and
+          delivers to perfection, ensuring that customers experience coffee that
+          meets their desires. We didn't start as a coffee shop; our roots are
+          in the 'coffee roastery,' driven by a passion to craft coffee beans
+          that cater to everyone. Offering a wide range of types and flavors,
+          whether you prefer drip coffee or a specific roasting style, we
+          provide it in a way that everyone will fall in love with.
+          
         </p>
       </div>
 
@@ -64,25 +66,26 @@ export default function Body() {
       </section> */}
 
       <section className="container mx-auto px-4 py-4 ">
-        <h2 className="text-center text-4xl font-bold mb-4">ครบเครื่องเรื่องกาแฟไปกับ สินธาราโรสเตอร์ ผู้จำหน่ายเมล็ดกาแฟและอุปกรณ์ครบครัน</h2>
-        <p className="text-center text-2xl">
-          เรามั่นใจว่า “สินธาราโรสเตอร์” คือหนึ่งในผู้เชี่ยวชาญด้านกาแฟของเมืองไทย
-          ลูกค้าที่ซื้อผลิตภัณฑ์ทุกชนิดจากเราจะได้รับประโยชน์กาแฟดริปกลับไปแบบเต็ม
-          ๆ ทั้งความอร่อย รสสัมผัส ความอิ่มเอมใจ และเรื่องของประโยชน์ต่อร่างกาย
-          ไม่ต้องเสียเวลามองหาเมล็ดกาแฟคั่วยี่ห้อไหนดี
-          เพราะอย่างที่บอกว่าเรารวบรวมเอาไว้ให้ทั้งหมดแล้ว เมล็ดกาแฟเอธิโอเปีย,
-          เมล็ดกาแฟโคลอมเบีย, เมล็ดกาแฟเคนย่า, เมล็ดกาแฟอินโดนีเซีย,
-          เมล็ดกาแฟเม็กซิโก หรือชื่นชอบเมล็ดกาแฟไทย
-          เราก็คัดสรรวัตถุดิบของเมล็ดกาแฟแท้ ๆ มาจากพื้นที่ดีที่สุดเท่านั้น
-          เพื่อให้ได้ตรงตามแนวทางเราตั้งใจไว้
-          มากไปกว่านั้นเรายังมีอุปกรณ์ที่เกี่ยวข้องกับกาแฟจัดจำหน่ายให้กับลูกค้าที่สนใจ
-          อาทิ ซองดริปกาแฟ ถุงดริปกาแฟ, ฟิลเตอร์กาแฟ และอื่น ๆ
-          สามารถเลือกสรรได้ตามความพึงพอใจ
-          เรายังคงเน้นย้ำในการรังสรรค์เมล็ดกาแฟให้เกิดความประทับใจกับผู้ดื่มทุก
-          ๆ ท่าน กาแฟคั่วสดบด Espresso Roast กาแฟดริปสำเร็จรูป เมล็ดกาแฟบด
-          เมล็ดกาแฟคั่วเข้ม โรบัสต้าคั่วกลาง เมล็ดกาแฟคั่วจากประเทศดัง
-          และอุปกรณ์ในการทำกาแฟคั่ว "สินธาราโรสเตอร์"
-          คือคำตอบในโลกของกาแฟอย่างแท้จริง
+        <h2 className="text-center text-3xl font-bold mb-4">
+        Master the Coffee Experience with Sintara Roasters - Your One-Stop
+        for Coffee Beans and Accessories
+        </h2>
+        <p className="text-center text-base">
+        We are confident that 'Sintara
+          Roasters' is one of the coffee experts in Thailand. Customers
+          purchasing our products receive the full benefits of drip coffee,
+          including delightful taste, texture, satisfaction, and health
+          benefits. There's no need to search for the best-roasted coffee beans
+          as we've gathered them all here: Ethiopian, Colombian, Kenyan,
+          Indonesian, Mexican, or even Thai coffee beans. We select only the
+          best quality beans from the finest regions to align with our
+          dedication. Beyond coffee beans, we offer various coffee-related
+          accessories like drip bags, coffee filters, and more, all available to
+          suit your preferences. Our focus remains on crafting coffee beans that
+          impress every drinker, from fresh ground espresso roasts to instant
+          drip coffee, medium-roast Robusta, and premium coffee-making
+          equipment. 'Sintara Roasters' is truly the answer in the world of
+          coffee.\"\n\n
         </p>
       </section>
     </>

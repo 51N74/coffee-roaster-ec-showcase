@@ -3,25 +3,26 @@ export default function Contact() {
   return (
     <>
       <section className="container mx-auto px-4 py-4 ">
-        <h2 className="text-center text-4xl font-bold mb-4">
-          การดริปกาแฟและกาแฟคั่วที่ดีต้องเริ่มต้นจากมีเมล็ดกาแฟคุณภาพ
+        <h2 className="text-center text-3xl font-bold mb-4">
+        Great Drip Coffee and Roasted Coffee Start with Quality Beans
         </h2>
-        <p className="text-center text-2xl">
-          สาเหตุหลักที่เราตั้งใจสร้างจุดเริ่มต้นจากการเป็น “โรงคั่วกาแฟ”
-          เพราะต้องการพัฒนาเมล็ดกาแฟให้ตอบโจทย์กับคอกาแฟทั่วโลก
-          โดยเฉพาะคนไทยซึ่งถือเป็นหนึ่งในประเทศที่นิยมดื่มกาแฟคั่วเป็นอย่างมาก
-          กาแฟสดคั่วบดของเราจึงมีตัวเลือกให้แบบครบครัน
-          ชื่นชอบสไตล์ไหนก็สามารถเลือกซื้อกันได้ทันที
-          เมื่อมีเมล็ดกาแฟคั่วชั้นเลิศแล้ว
-          ก็เป็นงานง่ายของบาริสต้าที่จะนำเสนอความอร่อยให้ลูกค้าหลงใหล
-          ไม่ต้องปวดหัวกับการพยายามหาวิธีคั่วกาแฟเองให้ยุ่งยาก.
-          เหมาะกับธุรกิจกาแฟทุกรูปแบบ ทั้งคาเฟ่ขนาดใหญ่ที่มีสาขาทั่วไทย,
-          คาเฟ่ขนาดเล็ก, ธุรกิจแฟรนไชส์กาแฟ
-          หรือคอกาแฟที่อยากซื้อไปลองดื่มด้วยตนเองก็ยิ่งสะดวกมากขึ้น
-          ไม่ต้องกังวลใจเกี่ยวกับการดริปกาแฟ ต้องการกาแฟดริปสำเร็จรูป
-          หรือกาแฟดริปแบบไหนเราจัดให้ทั้งหมด กาแฟคั่วอ่อน, กาแฟคั่วเข้ม ฯลฯ
-          เมล็ดกาแฟคั่วรสชาติดีเหมือนกับนั่งทานในร้านสุดหรูหรา
-          พร้อมทั้งยังมีบริการให้คำแนะนำปรึกษาแก่ผู้ที่สนใจทำธุรกิจกาแฟแต่ยังขาดความรู้ความเชี่ยวชาญในเรื่องของเมล็ดกาแฟ.
+        <p className="text-center text-base">
+        Our primary reason for establishing ourselves as
+          a 'coffee roastery' was to develop coffee beans that satisfy coffee
+          lovers worldwide, especially in Thailand, a country with a significant
+          coffee-drinking culture. Our freshly roasted ground coffee comes in a
+          complete variety to suit any preference. Once you have top-notch
+          roasted coffee beans, it becomes easier for baristas to create a
+          delightful experience for customers without the headache of learning
+          complex roasting techniques. Suitable for all types of coffee
+          businesses, from large chains across Thailand to small cafes, coffee
+          franchises, or coffee enthusiasts wanting to enjoy a perfect cup at
+          home. There's no need to worry about drip coffee – whether you prefer
+          instant drip or a specific style, we provide it all. Light roast, dark
+          roast, and more, our roasted coffee beans deliver a premium taste akin
+          to enjoying coffee in a luxurious café. We also offer consultancy
+          services for those interested in starting a coffee business but
+          lacking knowledge or expertise in coffee beans.
         </p>
       </section>
 
