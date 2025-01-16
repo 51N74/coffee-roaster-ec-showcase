@@ -3,6 +3,8 @@
 ## Overview
 This project is a Coffee Beans Gallery web application designed to showcase various coffee bean products. The application features a user-friendly interface with a modern design, allowing users to browse through a selection of coffee beans, view details, and interact with a smooth carousel slider.
 
+This repository represents Phase One of my journey in building an e-commerce platform for SINTARA, my coffee roasting business. Currently, it serves as a showcase of the coffee products I offer, with detailed descriptions and product listings. The goal is to transform this project into a fully functional e-commerce site, allowing customers to browse, order, and pay for coffee products online. Stay tuned for future updates as I work toward enhancing the platform to provide a seamless shopping experience!
+
 ## Features
 - **Product Display**: Showcases coffee bean products in a visually appealing grid layout.
 - **Carousel Slider**: Allows users to navigate through products using a sleek slider.
