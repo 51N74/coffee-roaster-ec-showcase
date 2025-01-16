@@ -42,7 +42,7 @@ export default function Header() {
       <li><Link href="/#">SHOP</Link> </li>
       <li><Link href="/beans">OUR BEANS</Link> </li>
       <li><Link href="/about">ABOUT US</Link> </li>
-      <li><Link href="/contact">Contact US</Link> </li>
+      <li><Link href="/contact">CONTACT US</Link> </li>
       
       
     </ul>

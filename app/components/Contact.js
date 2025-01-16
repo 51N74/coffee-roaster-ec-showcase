@@ -2,11 +2,11 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <>
-      <section className="container mx-auto px-4 py-4 ">
-        <h2 className="text-center text-3xl font-bold mb-4">
+      <section className="container mx-auto px-16 py-16 bg-gray-100 ">
+        <h2 className="text-center text-3xl font-bold mb-4 text-coffee-dark">
         Great Drip Coffee and Roasted Coffee Start with Quality Beans
         </h2>
-        <p className="text-center text-base">
+        <p className="text-center text-base text-black">
         Our primary reason for establishing ourselves as
           a 'coffee roastery' was to develop coffee beans that satisfy coffee
           lovers worldwide, especially in Thailand, a country with a significant
@@ -29,31 +29,17 @@ export default function Contact() {
       <div className="container mx-auto px-4 py-4 ">
         <div className="columns-2">
           <Link href="/about">
-            <div className="card bg-base-100 image-full shadow-xl">
-              <figure>
-                <img
-                  src="/images/other/coffee_beans_hands-3698937492.jpg"
-                  alt="company"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="image-full bg-cover h-64 bg-center brightness-50 hover:brightness-100  bg-[url('/images/other/img-ex-6.jpg')] ">
+              <div className="card-body flex justify-center  ">              
+                <h2 className="text-center text-3xl font-bold border-4 p-16 ">ABOUT US</h2>              
               </div>
             </div>
           </Link>
 
           <Link href="/contact">
-            <div className="card bg-base-100 image-full shadow-xl">
-              <figure>
-                <img
-                  src="/images/other/Coffogenic-60ml.jpg"
-                  alt="contactus"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div className="image-full bg-cover h-64 bg-center brightness-50 hover:brightness-100 bg-[url('/images/other/img-ex-7.jpg')]">
+          <div className="card-body flex justify-center ">              
+                <h2 className="text-center text-3xl font-bold  border-4 p-16 ">CONTACT</h2>              
               </div>
             </div>
           </Link>

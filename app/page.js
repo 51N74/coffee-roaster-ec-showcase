@@ -4,7 +4,6 @@ import Body from './components/Body'
 import Gallery from "./components/Gallery";
 import Blog from "./components/Blog";
 import Contact from './components/Contact'
-import ImageCarousel from "./components/ImageCarousel";
 export default function Home() {
   const products = [
     {
@@ -12,6 +11,7 @@ export default function Home() {
       name: 'Product 1',
       price: '$20.00',
       image: '/images/products/product_1.jpg',
+    
     },
     {
       id: 2,
@@ -31,36 +31,40 @@ export default function Home() {
       price: '$25.00',
       image: '/images/products/product_4.jpg',
     },
+    {
+      id: 5,
+      name: 'Product 5',
+      price: '$25.00',
+      image: '/images/bestSeller/bestSeller_1.jpg',
+    },
+    {
+      id: 6,
+      name: 'Product 6',
+      price: '$25.00',
+      image: '/images/bestSeller/bestSeller_2.jpg',
+    },
+    {
+      id: 7,
+      name: 'Product 7',
+      price: '$25.00',
+      image: '/images/bestSeller/bestSeller_3.jpg',
+    },
+    {
+      id: 8,
+      name: 'Product 8',
+      price: '$25.00',
+      image: '/images/bestSeller/bestSeller_4.jpg',
+    },
+    {
+      id: 9,
+      name: 'Product 9',
+      price: '$25.00',
+      image: '/images/bestSeller/bestSeller_5.jpg',
+    },
     // Add more products here...
   ];
 
-  const bestSellers = [
-    {
-      id: 1,
-      name: 'Best Seller 1',
-      price: '$20.00',
-      image: '/images/best-seller1.jpg',
-    },
-    {
-      id: 2,
-      name: 'Best Seller 2',
-      price: '$35.00',
-      image: '/images/best-seller2.jpg',
-    },
-    {
-      id: 3,
-      name: 'Best Seller 3',
-      price: '$25.00',
-      image: '/images/best-seller3.jpg',
-    },
-    {
-      id: 4,
-      name: 'Best Seller 4',
-      price: '$25.00',
-      image: '/images/best-seller4.jpg',
-    },
-    // Add more best sellers here...
-  ];
+ 
   const posts=[
     {
       id: 1,
@@ -83,13 +87,6 @@ export default function Home() {
       summary: 'This is the summary of Blog Post 3.',
       image: '/images/blog/blog_3.jpg',
     },
-    {
-      id: 4,
-      title: 'Blog Post 4',
-      date: '2023-06-04',
-      summary: 'This is the summary of Blog Post 4.',
-      image: '/images/blog/blog_4.jpg',
-    },
     // Add more blog posts here...
   ];
 
@@ -97,8 +94,7 @@ export default function Home() {
     <>
       <Hero />
       <Body />
-      <Gallery products={products} />
-      {/* <ImageCarousel bestSellers={bestSellers} /> */}
+      <Gallery products={products} />      
       <Blog posts={posts} />
       <Contact />
 
